@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Lucida Grande','Helvetica Neue',Helvetica,Arial,sans-serif;
+    height:100%;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+nav{
+    background-color: #2A3344;
+    width: 89%;
+    margin-left: 80px;
+    height: 100%;
+}
+
+.sidebars div{
+    height:2px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.sidebars{
+    width:60px;
+    display: block;
+    float: right;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+.one{
+    width: 20px;
+    float: right;
+    margin: 20px 20px 5px 0;
+}
+
+.two{
+    width: 15px;
+    float: right;
+    margin: 2px 20px 5px 0;
+}
+
+.three{
+    width: 10px;
+    float: right;
+    margin: 2px 20px 5px 0;
+}
+
+div.vertical{
+    position: relative;
+    text-orientation: mixed;
+    font-size: 11px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    top: 220px;
+    left: 1300px;
+    writing-mode: vertical-rl;
+    color: white;
+    padding-right:37px;
+    padding-left:15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div.vertical:hover{
+    background-color: rgb(64, 69, 80);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div.vertical:hover:before {
+    content: "";
+    border-top: 1px solid white;
+    margin-top: 20px;
+    position: absolute;
+    width: 60%;
+    margin-right: 32px;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 1.17em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} 
+
+img {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    width: 750px;
+    height: 550px;
+    float: right;
+  }
+ 
+.box {
+    float: right;
+    width: 750px;
+    height: 300px;
+    background-color: white;
+    color: rgb(108, 109, 110);
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 40px;
+}
+
+p.description_aboutMe{
+    float: right;
+    margin-top: 10%;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: white;
+    padding-right: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.firstname{
+    color: white;
+    padding-left: 110px;
+    margin-top: 50px;
+}
+
+.lastname{
+    color: rgb(56, 125, 230);
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    width: 1260px;
+    height: 100%;
+    background-color: rgb(28, 71, 152); 
+}
+
+h4{
+    color: rgb(56, 125, 230);
+    margin-left: 110px;
+    margin-top: 140px;
+    font-size: 20px;
+    height: 10px;
+}
+
+h1{
+    position: relative;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 105px;
+    font-weight: bold;
+    margin-left: 110px;
+    color: white;
+    height: 160px;
+    z-index: 3;
+}
+
+.job{
+    color: white;
+    margin-left: 110px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+h6.resume{
+    margin-top: 160px;
+    background-color: #313B4E;
+    width: 175px;
+    height: 60px;
+    margin-left: 40px;
+    font-size: 12px;
+}
+
+h6{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: 30px 0 0 110px;
+    border: 1px solid white;
+    width: 190px;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+}
+
+.icons{
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+i{
+    margin: 20px;
+    padding: 3px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+i.fa{
+    top: 52%;
+    left: 36%;
+    position: absolute;
+    z-index: 3;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+i.fa-play{
+    color: #313B4E;
+    font-size: 15px;
+    background-color: white;
+    padding: 32px;    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a :active{
+    color: white;
+    text-decoration: none;
+}
