@@ -37,6 +37,13 @@ nav{
     }
 }
 
+@media (max-width: 90rem){
+    footer{
+        position: absolute;
+        bottom: 25%;
+    }
+}
+
 .sidebars div{
     height:2px;
     background-color: white;
