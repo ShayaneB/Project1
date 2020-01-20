@@ -207,6 +207,7 @@ h6:hover{
 }
 
 footer {
+    position: absolute;
     bottom:0;
 }
 
