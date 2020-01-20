@@ -1,6 +1,6 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -16,14 +16,26 @@ body{
     left: 0;
     top: 0;
     overflow: hidden;
-    position: fixed;
+    /* position: fixed; */
 }
 
 nav{
     background-color: #2A3344;
     width: 89%;
-    margin-left: 80px;
+    margin-left: 6rem;
     height: 100%;
+}
+
+@media(max-width: 80rem){
+    nav{
+        width: 89%;
+        background-color: #2A3344;
+    }
+
+    body{
+        width: 100%;
+        background-color: black;
+    }
 }
 
 .sidebars div{
@@ -61,24 +73,21 @@ nav{
 div.vertical{
     position: relative;
     text-orientation: mixed;
-    font-size: 11px;
+    font-size: 0.7rem;
     font-weight: bold;
     display: inline-block;
     text-decoration: none;
-    top: 220px;
-    left: 1300px;
+    top: 13.75rem;
+    left: 81.25rem;
     writing-mode: vertical-rl;
     color: white;
-    padding-right:37px;
-    padding-left:15px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 30px 15px 15px 15px;
 }
 
 div.vertical:hover{
     background-color: rgb(64, 69, 80);
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 div.vertical:hover:before {
@@ -103,17 +112,17 @@ img {
     top: 0px;
     right: 0px;
     position: absolute;
-    width: 750px;
-    height: 550px;
+    width: 58%;
+    height: 69%;
     float: right;
   }
  
 .box {
     float: right;
-    width: 750px;
-    height: 300px;
+    width: 58%;
     background-color: white;
     color: rgb(108, 109, 110);
+    height: 250px;
 }
 
 p {
@@ -179,24 +188,29 @@ h1{
     font-family: 'Poppins', sans-serif;
 }
 
-h6.resume{
-    margin-top: 160px;
-    background-color: #313B4E;
-    width: 175px;
-    height: 60px;
-    margin-left: 40px;
-    font-size: 12px;
-}
-
 h6{
     font-family: 'Open Sans', sans-serif;
     color: white;
     margin: 30px 0 0 110px;
     border: 1px solid white;
-    width: 190px;
-    height: 60px;
+    width: 15%;
+    height: 8%;
     text-align: center;
     padding-top: 20px;
+}
+
+h6.resume{
+    margin-top: 160px;
+    background-color: #313B4E;
+    width: 25%;
+    height: 25%;
+    margin-left: 40px;
+    font-size: 12px;
+}
+
+h6:hover{
+    background-color: grey;
+    color: black;
 }
 
 footer {
@@ -213,25 +227,30 @@ footer {
 i{
     margin: 20px;
     padding: 3px;
-    border-radius: 100%;
+    border-radius: 150%;
     border: 1px solid white;
+}
+
+i:hover{
+    background-color: greenyellow;
+    color: black;
 }
 
 i.fa{
     top: 52%;
-    left: 36%;
+    left: 37%;
     position: absolute;
     z-index: 3;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 6%;
+    height: 10%;
 }
 
 i.fa-play{
     color: #313B4E;
     font-size: 15px;
     background-color: white;
-    padding: 32px;    
+    padding: 28px;    
 }
 
 a{
