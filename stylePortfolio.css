@@ -25,22 +25,9 @@ nav{
     height: 100%;
 }
 
-@media(max-width: 80rem){
-    nav{
-        width: 89%;
-        background-color: #2A3344;
-    }
-
-    body{
-        width: 100%;
-        background-color: black;
-    }
-}
-
 @media (max-width: 90rem){
     footer{
-        position: absolute;
-        bottom: 25%;
+        position: fixed;
     }
 }
 
@@ -220,7 +207,6 @@ h6:hover{
 }
 
 footer {
-    position:absolute;
     bottom:0;
 }
 
