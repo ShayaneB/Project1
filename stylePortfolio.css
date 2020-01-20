@@ -130,8 +130,8 @@ p {
 
 p.description_aboutMe{
     float: right;
-    margin-top: 10%;
-    font-size: 11px;
+    margin-top: 6%;
+    font-size: 0.7rem;
     font-weight: bold;
     background-color: white;
     padding-right: 90px;
@@ -152,7 +152,6 @@ p.description_aboutMe{
     position: absolute;
     top:0;
     width: 82%;
-    /* height: 100%; */
     background-color: rgb(28, 71, 152); 
 }
 
@@ -174,13 +173,6 @@ h1{
     z-index: 3;
 }
 
-.job{
-    color: white;
-    margin-left: 110px;
-    font-weight: normal;
-    font-family: 'Poppins', sans-serif;
-}
-
 h6{
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -192,11 +184,18 @@ h6{
     padding: 20px;
 }
 
+.job{
+    color: white;
+    margin-left: 110px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
 h6.resume{
-    margin-top: 160px;
+    margin-top: 20%;
     background-color: #313B4E;
     width: 25%;
-    height: 25%;
+    height: 23%;
     margin-left: 40px;
     font-size: 12px;
 }
@@ -213,8 +212,7 @@ footer {
 
 .icons{
     color: white;
-    margin-left: 100px;
-    margin-bottom: 40px;
+    margin-left: 6%;
 }
 
 i{
@@ -231,11 +229,10 @@ i:hover{
 
 i.fa{
     top: 52%;
-    left: 37%;
+    left: 38%;
     position: absolute;
     z-index: 3;
-    border-radius: 50%;
-    width: 6%;
+    width: 5%;
     height: 8%;
 }
 
