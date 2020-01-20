@@ -16,7 +16,6 @@ body{
     left: 0;
     top: 0;
     overflow: hidden;
-    /* position: fixed; */
 }
 
 nav{
@@ -78,7 +77,7 @@ div.vertical{
     display: inline-block;
     text-decoration: none;
     top: 13.75rem;
-    left: 81.25rem;
+    left: 95%;
     writing-mode: vertical-rl;
     color: white;
     padding: 30px 15px 15px 15px;
@@ -157,7 +156,7 @@ p.description_aboutMe{
 .overlay{
     position: absolute;
     top:0;
-    width: 1260px;
+    width: 82%;
     height: 100%;
     background-color: rgb(28, 71, 152); 
 }
@@ -250,7 +249,7 @@ i.fa-play{
     color: #313B4E;
     font-size: 15px;
     background-color: white;
-    padding: 28px;    
+    padding: 30px;    
 }
 
 a{
