@@ -25,12 +25,6 @@ nav{
     height: 100%;
 }
 
-@media (max-width: 90rem){
-    footer{
-        position: fixed;
-    }
-}
-
 .sidebars div{
     height:2px;
     background-color: white;
@@ -107,7 +101,7 @@ img {
     right: 0px;
     position: absolute;
     width: 58%;
-    height: 69%;
+    height: 72%;
     float: right;
   }
  
@@ -152,6 +146,7 @@ p.description_aboutMe{
     position: absolute;
     top:0;
     width: 82%;
+    height: 100%;
     background-color: rgb(28, 71, 152); 
 }
 
@@ -208,6 +203,7 @@ h6:hover{
 footer {
     position: absolute;
     bottom:0;
+    padding-bottom: 2.5rem;
 }
 
 .icons{
