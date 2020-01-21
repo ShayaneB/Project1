@@ -87,7 +87,6 @@ div.vertical:hover:before {
 }
 
 h3 {
-    display: inline-block;
     font-size: 1.17em;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -110,7 +109,6 @@ img {
     width: 58%;
     background-color: white;
     color: rgb(108, 109, 110);
-    height: 250px;
 }
 
 p {
@@ -152,7 +150,6 @@ p.description_aboutMe{
 
 h4{
     color: rgb(56, 125, 230);
-    margin-left: 110px;
     margin-top: 140px;
     font-size: 20px;
     line-height: normal;}
@@ -162,7 +159,6 @@ h1{
     font-family: 'Catamaran', sans-serif;
     font-size: 105px;
     font-weight: bold;
-    margin-left: 110px;
     color: white;
     line-height: normal;    
     z-index: 3;
@@ -177,11 +173,11 @@ h6{
     line-height: normal;    
     text-align: center;
     padding: 20px;
+    float: left;
 }
 
 .job{
     color: white;
-    margin-left: 110px;
     font-weight: normal;
     font-family: 'Poppins', sans-serif;
 }
@@ -208,13 +204,12 @@ footer {
 
 .icons{
     color: white;
-    margin-left: 6%;
 }
 
 i{
     margin: 20px;
     padding: 3px;
-    border-radius: 150%;
+    border-radius: 110%;
     border: 1px solid white;
 }
 
@@ -224,19 +219,14 @@ i:hover{
 }
 
 i.fa{
-    top: 52%;
-    left: 38%;
     position: absolute;
     z-index: 3;
-    width: 5%;
-    height: 8%;
 }
 
 i.fa-play{
     color: #313B4E;
     font-size: 15px;
     background-color: white;
-    padding: 25px;    
 }
 
 a{
@@ -247,4 +237,87 @@ a{
 a :active{
     color: white;
     text-decoration: none;
+}
+
+@media (min-width: 50rem)
+{
+    nav{
+        margin: auto;
+    }
+
+    .box{
+        display: block;
+        position: absolute;
+        left:42%;
+        top:70%;
+        height: 30%;
+    }
+
+    .job, h1, h4, .firstname{
+        margin-left: 21px;
+        padding-left: 0px;
+    }
+
+    .job{
+        height: 2%;    
+    }
+
+    h1{
+        font-size: 90px;
+    }
+
+    .icons {
+        margin-left: 0px;
+    }
+
+    i.fa{
+        width:5%;
+        top: 60%;
+        left: 36%;
+        height: 7%;
+    }
+
+    i.fa-play{
+        padding-left: 22px;
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h3.firstname{
+        display: inline-block;
+    }
+
+    h3.lastname{
+        display: inline-block;
+    }
+
+    h6.resume{
+        display: inline-block;
+        margin-top: 0px;
+        width: 30%;
+    }
+}
+
+@media (min-width: 76.375rem)
+{
+    .job, h1, h4, .firstname{
+        margin-left: 110px;
+        padding-left: 0px;
+    }
+
+    .icons {
+        margin-left: 6%;
+    }
+
+    i.fa{
+        top: 60%;
+        left: 38%;
+        width: 5%;
+        height: 8%;
+    }
+    
+    i.fa-play{
+        padding: 24px;    
+    }
 }
